@@ -1,0 +1,19 @@
+{
+  "name": "env-test",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Disposable experiment: one Express app, three environment configurations.",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test 'test/*.test.js'",
+    "test:all": "for e in development staging production; do APP_ENV=$e node --test 'test/*.test.js' || exit 1; done",
+    "verify": "bash scripts/verify-env.sh"
+  },
+  "dependencies": {
+    "express": "5.2.1"
+  }
+}
