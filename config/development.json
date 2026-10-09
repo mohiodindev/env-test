@@ -1,0 +1,8 @@
+{
+  "appName": "env-test",
+  "environment": "development",
+  "marker": "DEV-7f3a",
+  "logLevel": "debug",
+  "apiBaseUrl": "http://localhost:3000",
+  "featureBanner": "development build"
+}

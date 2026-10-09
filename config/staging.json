@@ -1,0 +1,8 @@
+{
+  "appName": "env-test",
+  "environment": "staging",
+  "marker": "STG-2c9e",
+  "logLevel": "info",
+  "apiBaseUrl": "https://staging.example.invalid",
+  "featureBanner": "staging build"
+}

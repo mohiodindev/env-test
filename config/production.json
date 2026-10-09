@@ -1,0 +1,8 @@
+{
+  "appName": "env-test",
+  "environment": "production",
+  "marker": "PRD-91d4",
+  "logLevel": "warn",
+  "apiBaseUrl": "https://example.invalid",
+  "featureBanner": ""
+}
